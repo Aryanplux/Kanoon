@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Large model files - TOO BIG FOR GITHUB
+mistral_model/
+model/
+*.safetensors
+*.bin
+*.lib
+*.dll
