@@ -1,4 +1,4 @@
-# 🏛️ Kanoon - Law AI Assistant
+#  Kanoon - Law AI Assistant
 
 <div align="center">
 
@@ -15,26 +15,26 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 
 Kanoon is a desktop AI application designed for legal professionals and law students.  
 It provides **offline** access to AI capabilities like document analysis, multilingual translation, and intelligent legal research assistance—all powered by the **Mistral-7B model**.
 
 ---
 
-## ✨ Features
+##  Features
 
-- **🤖 Offline AI Assistant** – Works completely offline, powered by Mistral-7B
-- **📄 Legal Document Analysis** – Processes and analyzes legal files (PDF/DOCX/TXT)
-- **🌐 Multi-language Translation** – Accurately translates legal content
-- **🔍 Smart Legal Research** – Context-based answers from legal datasets
-- **💬 Natural Language Interface** – Query using plain English
-- **📊 Legal Database** – Built-in repository of legal articles and case precedents
-- **🎤 Voice Input Support** – Optional voice recognition for queries
+- ** Offline AI Assistant** – Works completely offline, powered by Mistral-7B
+- ** Legal Document Analysis** – Processes and analyzes legal files (PDF/DOCX/TXT)
+- ** Multi-language Translation** – Accurately translates legal content
+- ** Smart Legal Research** – Context-based answers from legal datasets
+- ** Natural Language Interface** – Query using plain English
+- ** Legal Database** – Built-in repository of legal articles and case precedents
+- ** Voice Input Support** – Optional voice recognition for queries
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ text
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Starting the Application
 python main.py
@@ -91,7 +91,7 @@ text
 
 ---
 
-## ⚙️ Features Overview
+##  Features Overview
 
 ### Legal Query Interface
 - Type natural-language legal questions  
@@ -109,7 +109,7 @@ text
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 Kanoon/
 ├── models/mistral-7b/ # AI Model files
@@ -133,7 +133,7 @@ text
 
 ---
 
-## 🛠️ Technical Details
+##  Technical Details
 
 ### AI Architecture
 - **Base Model:** Mistral-7B-Instruct-v0.1  
@@ -148,7 +148,7 @@ text
 
 ---
 
-## ❓ FAQ
+##  FAQ
 
 **Q:** Why is the first setup slow?  
 **A:** The first setup builds vector embeddings for the legal database.  
@@ -167,7 +167,7 @@ text
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Model Loading Issues
 - Ensure all model files are in `models/mistral-7b/`
@@ -184,7 +184,7 @@ text
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome all contributions!  
 **Areas for improvement:**
@@ -195,23 +195,16 @@ We welcome all contributions!
 
 ---
 
-## 📄 License
+##  License
 
 Licensed under the **MIT License** — See the `LICENSE` file for details.
 
 ---
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 Kanoon is an AI legal assistant tool and **must not** be treated as professional legal advice.  
 Always consult certified legal professionals for formal legal matters.
-
----
-
-## 📞 Support
-
-- **Issues:** [GitHub Issues](https://github.com/Aryanplux/Kanoon/issues)  
-- **Documentation:** [Wiki](https://github.com/Aryanplux/Kanoon/wiki)
 
 ---
 
@@ -224,7 +217,7 @@ Built with ❤️ for the legal community
 
 ---
 
-## 📦 requirements.txt
+##  requirements.txt
 
 torch>=2.0.0
 transformers>=4.30.0
@@ -245,7 +238,7 @@ text
 
 ---
 
-## 🧩 setup_models.py
+##  setup_models.py
 
 #!/usr/bin/env python3
 """
@@ -264,9 +257,9 @@ text
 # Create models directory
 os.makedirs("models/mistral-7b", exist_ok=True)
 
-print("📥 Downloading Mistral-7B model...")
-print("⚠️  This may take 30-60 minutes depending on your internet connection")
-print("⚠️  Required space: ~13GB")
+print("Downloading Mistral-7B model...")
+print("This may take 30-60 minutes depending on your internet connection")
+print("Required space: ~13GB")
 print()
 
 try:
@@ -277,12 +270,12 @@ try:
         local_dir_use_symlinks=False,
         resume_download=True
     )
-    print("✅ Model downloaded successfully!")
-    print("🎉 Setup complete! Run: python main.py")
+    print("Model downloaded successfully!")
+    print("Setup complete! Run: python main.py")
     
 except Exception as e:
-    print(f"❌ Error downloading model: {e}")
-    print("\n🔧 Alternative manual setup:")
+    print(f"Error downloading model: {e}")
+    print("\nAlternative manual setup:")
     print("1. Visit: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1")
     print("2. Download all files to 'models/mistral-7b/' folder")
     print("3. Ensure all .safetensors files are present")
@@ -293,7 +286,7 @@ text
 
 ---
 
-## 📁 .gitignore
+##  .gitignore
 
 Models
 models/
@@ -339,8 +332,3 @@ Audio files
 text
 
 ---
-
-<div align="center">
-
-All content is now formatted for GitHub Markdown with consistent styling and ready to publish!  
-</div>
